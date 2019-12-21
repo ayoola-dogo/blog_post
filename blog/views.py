@@ -1,21 +1,8 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from .models import Post
 
 
-posts = [
-    {
-        'author': 'Ayoola Dogo',
-        'title': 'Python developer available',
-        'content': 'First post content',
-        'posted_date': 'December 19, 2019',
-    },
-    {
-        'author': 'John Doe',
-        'title': 'Second blog post',
-        'content': 'Second post content - Great content',
-        'posted_date': 'December 20, 2019',
-    },
-]
+posts = Post.objects.all()
 
 
 # Create your views here.
