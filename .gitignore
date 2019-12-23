@@ -2,3 +2,5 @@ db.sqlite3
 blog/__pycache__/
 blog_post/__pycache__/
 blog/migrations/__pycache__/
+users/__pycache__/
+users/migrations/__pycache__/
