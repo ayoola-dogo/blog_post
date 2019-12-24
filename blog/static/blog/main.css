@@ -1,7 +1,7 @@
 body {
   background: #fafafa;
   color: #333333;
-  margin-top: 10rem;
+  margin-top: 6rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,8 +13,8 @@ ul {
 }
 
 .bg-steel {
-  background-color: #324ca7;
-  height: 125px
+  background-color: #2C3E7C;
+  height: 80px
 }
 
 .site-header .navbar-brand {
@@ -86,4 +86,16 @@ a.article-title:hover {
 
 .account-heading {
   font-size: 2.5rem;
+}
+
+.blue {
+  background-color: #2C3E7C;
+}
+
+.btn {
+  border: 1px solid #2C3E7C;
+}
+
+.btn:hover {
+  background-color: #2C3E7C;
 }
